@@ -1,4 +1,8 @@
-# Andrew Chang-DeWitt
+<!-- NOTE: using U+2011 non breaking hyphen below to discourage wrapping at
+     hyphen in Chang-DeWitt. Can also be specified using &#x2011 or &#8209
+-->
+
+# Andrew Chang‑DeWitt
 
 - [(812) 266-0282](tel:+01-8122660282)
 - [hire-me@andrew-chang-dewitt.dev](mailto:hire-me@andrew-chang-dewitt.dev)
@@ -9,24 +13,73 @@ I'm a CS student with a passion for mathematics, programming languages, & buildi
 
 ## Skills
 
-<!-- FIXME: below should be nested lists for fully compliant markdown, maybe there needs to be a separate simple_text output option that drops markdown formatting (links, bold, etc.) for a simpler text output that supports columns via whitespace -->
+- **languages:**
+  <span class="skills-list">
 
-- **languages:** rust | python | typescript | javascript | java | racket | assembly
-- **tools & libraries:** git | bash | postgres | mysql | nodejs | leptos | fastapi | react | redux | html | css
-- **concepts:** object-oriented programming | functional programming | data structures | algorithm design & analysis | systems programming | unit testing | end to end testing | restapi design | library api design | relational database system design
-- **soft skills:** project planning | communication | coaching & mentorship | teamwork
+  - rust
+  - python
+  - typescript
+  - javascript
+  - java
+  - racket
+  - assembly
+
+  </span>
+
+- **tools & libraries:**
+  <span class="skills-list">
+
+  - git
+  - bash
+  - postgres
+  - mysql
+  - nodejs
+  - leptos
+  - fastapi
+  - react
+  - redux
+  - html
+  - css
+
+  </span>
+
+- **concepts:**
+  <span class="skills-list">
+
+  - object-oriented programming
+  - functional programming
+  - data structures
+  - algorithm design & analysis
+  - systems programming
+  - unit testing
+  - end to end testing
+  - restapi design
+  - library api design
+  - relational database system design
+
+  </span>
+
+- **soft skills:**
+  <span class="skills-list">
+
+  - project planning
+  - communication
+  - coaching & mentorship
+  - teamwork
+
+  </span>
 
 ## Education
 
 ### Bachelor of Science in Computer Science
 
-_**Illinois Institute of Technology**, Chicago, IL_
-
-- August 2024 - May 2026
+_**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
 
 Completing coursework on CS & SWE fundamentals, including systems programming, programming language theory, compiler construction, & database organization w/ special interests in discrete mathematics & programming language theory.
 
 **Skills developed:**
+
+<span class="skills-list">
 
 - object-oriented programming
 - functional programming
@@ -41,9 +94,11 @@ Completing coursework on CS & SWE fundamentals, including systems programming, p
 - teamwork
 - writing
 
+</span>
+
 ## Experience
 
-### Dept. of CS, Northwestern University
+### Department of Computer Science, Northwestern University
 
 _**Undergraduate research assistant**, March 2024 - June 2024_
 
@@ -53,11 +108,15 @@ _**Undergraduate research assistant**, March 2024 - June 2024_
 
 **Skills developed:**
 
+<span class="skills-list">
+
 - racket
 - AI/LLM
 - unit testing
 - teamwork
 - research
+
+</span>
 
 ### Tinder
 
@@ -70,6 +129,8 @@ _**Web Engineering Intern**, June 2022 - Jan 2023_
 
 **Skills developed:**
 
+<span class="skills-list">
+
 - typescript
 - react
 - redux
@@ -79,6 +140,8 @@ _**Web Engineering Intern**, June 2022 - Jan 2023_
 - user studies
 - teamwork
 - project planning
+
+</span>
 
 ### Indiana University
 
@@ -90,6 +153,8 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 
 **Skills developed:**
 
+<span class="skills-list">
+
 - c#
 - .net
 - javascript
@@ -98,7 +163,9 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 - css
 - communication
 
-### Dept. of a Family Resources, State of Indiana
+</span>
+
+### Department of Family Resources, State of Indiana
 
 _**State Eligibility Consultant**, Jun 2019 - Aug 2020_,<br />
 _**Team Lead**, May 2018 - Jun 2019_,<br />
@@ -110,8 +177,12 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 **Skills developed:**
 
+<span class="skills-list">
+
 - Emotional intelligence
 - Leadership
 - Coaching & mentorship
 - Communication
 - Project planning
+
+</span>

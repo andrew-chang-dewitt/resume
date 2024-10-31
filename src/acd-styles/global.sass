@@ -1,0 +1,175 @@
+@use 'fonts'
+@use 'colors'
+@use 'layout'
+
+@import '~prismjs/themes/prism-tomorrow'
+
+:root
+  scroll-behavior: smooth
+
+html
+  font-family: fonts.$family-sans
+  font-size: fonts.$size-base-desktop
+  text-rendering: optimizeLegibility
+  color: colors.$dark
+  background-color: colors.$light
+@media all and (max-width: #{layout.$screen-small})
+  html
+    font-size: fonts.$size-base-mobile
+body
+  margin: 0 layout.$side-margin
+  font-size: fonts.$size-regular
+
+section
+  padding-top: 4rem
+
+.standardWidth,section
+  @include layout.standard-width
+
+h1, h2, h3, h4, h5, h6, blockquote
+  font-family: fonts.$family-serif
+  font-weight: fonts.$weight-serif-normal
+
+h1
+  font-size: fonts.$size-huge
+
+h2
+  font-size: fonts.$size-large
+
+h3
+  font-size: fonts.$size-regular-medium
+
+h4
+  font-size: fonts.$size-regular
+
+h5
+  font-size: fonts.$size-small
+
+h6
+  font-size: fonts.$size-tiny
+
+button
+  background-color: colors.$dark
+  color: colors.$light
+  font-weight: fonts.$weight-sans-semi-bold
+  border: none
+  cursor: pointer
+
+button[type="submit"]
+  background-color: colors.$action
+  color: colors.$dark
+
+button:hover, button[type="submit"]:hover
+  background-color: colors.$accent1
+
+button[type="submit"]:hover
+  color: colors.$light
+
+*:focus
+  outline: none
+
+button:focus, a:focus, *[role="button"]:focus
+  box-shadow: 0 0 3px 1px colors.$accent1
+
+a, span[role=button]
+  color: colors.$action-dark
+  text-decoration: none
+
+a:hover, span[role=button]:hover
+  color: colors.$accent1
+
+a:hover
+  text-decoration: underline
+
+/* override colors & fonts for PrismJS styled code blocks */
+code, code[class*="language-"]
+  color: colors.$light
+  font-family: fonts.$family-mono
+:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code,
+:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code[class*="language-"]
+  font-size: fonts.$size-regular
+@media all and (max-width: #{ layout.$screen-small })
+  :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code,
+  :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code[class*="language-"]
+    font-size: fonts.$size-small
+code > .token.boolean, .token.number, .token.function
+  color: colors.$action
+code > .token.operator, .token.entity, .token.url
+  color: colors.$accent1
+code, :not(pre) > code[class*="language-"]
+  padding: 0 0.2rem
+  border-radius: 0.3rem
+code, :not(pre) > code[class*="language-"],
+pre[class*="language-"]
+  background-color: colors.$dark
+.gatsby-highlight-code-line
+  background-color: colors.$highlight
+  display: block
+  margin-right: -1rem
+  margin-left: -1rem
+  padding-right: 1rem
+  padding-left: 0.75rem
+  border-left: 0.25rem solid colors.$action
+.gatsby-highlight
+  background-color: colors.$dark
+  border-radius: 0.3rem
+  margin: 0.5rem 0
+  padding: 1rem
+  overflow: auto
+.gatsby-highlight pre[class*="language-"]
+  background-color: transparent
+  margin: 0
+  padding: 0
+  overflow: initial
+  float: left
+  min-width: 100%
+
+.no-wrap
+  white-space: nowrap
+
+.indent p, p.indent
+  text-indent: layout.$paragraph-indent
+.indent p > img:only-child, p.indent > img:only-child
+  margin-left: -1 * layout.$paragraph-indent
+
+.italic
+  font-style: italic
+
+.subtitle
+  font-style: italic
+  margin-bottom: 0.75rem
+
+.title + .subtitle
+  margin-top: -1.75rem
+
+.centered, .centered *
+  text-align: center
+
+svg.stroke,
+.stroke svg
+  fill: transparent
+  stroke: colors.$dark
+  stroke-linecap: round
+  stroke-linejoin: miter
+svg.fill,
+.fill svg
+  fill: colors.$dark
+  stroke: transparent
+svg.stroke.light,
+.stroke.light svg
+  stroke: colors.$light
+svg.fill.light,
+.fill.light svg
+  fill: colors.$light
+svg.stroke.action,
+.stroke.action svg
+  stroke: colors.$action
+svg.fill.action,
+.fill.action svg
+  fill: colors.$action
+
+@media print
+  html
+    font-size: 12px
+  .avoidPageBreak
+    break-inside: avoid

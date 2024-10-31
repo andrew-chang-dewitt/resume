@@ -1,0 +1,18 @@
+:root {
+  --layout-min-width: 310px;
+  --layout-max-width: 61rem;
+
+  --layout-side-margin: 1rem;
+
+  --layout-grid-gap: 0.5rem;
+
+  --layout-paragraph-indent: 2rem;
+
+  --layout-first-subtitle: 0.75rem;
+}
+
+.standard-width {
+  min-width: var(--layout-min-width);
+  max-width: var(--layout-max-width);
+  margin: auto;
+}

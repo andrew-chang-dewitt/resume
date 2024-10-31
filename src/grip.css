@@ -1,0 +1,232 @@
+html {
+    font-size: 16px !important;
+}
+
+a {
+    color: #ab6400 !important;
+    text-decoration: underline !important;
+}
+
+p {
+    text-indent: 2em;
+}
+
+blockquote {
+    padding-left: 2em !important;
+    border-left: 0.25em solid grey !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+p:has(img) {
+    margin: 1.5rem !important;
+    text-indent: 0 !important;
+}
+
+.markdown-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.markdown-heading:has(h1) {
+    justify-content: space-between;
+}
+
+.markdown-heading .heading-element {
+    order: 2;
+}
+
+.markdown-heading:has(h1)::after {
+    order: 3;
+    content: "";
+}
+
+.markdown-heading:has(h2)+div {
+    margin-top: 24px;
+    column-count: 3;
+    column-width: 24rem;
+    column-gap: 2em;
+}
+
+.markdown-heading:has(h2)+div>.markdown-heading:has(h3) {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.markdown-heading:has(h2)+div>.markdown-heading:has(h6) {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-heading:has(h2)+div>.markdown-heading>h3,
+.markdown-heading:has(h2)+div>.markdown-heading>h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.markdown-heading:has(h2)+div>.markdown-heading:first-child {
+    margin-top: 0;
+}
+
+.markdown-body .anchor {
+    float: none !important;
+    order: 1;
+    position: unset !important;
+}
+
+#doc-header>p,
+#doc-footer>p {
+    text-indent: 0;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    margin-top: 0;
+}
+
+#title>ul,
+#title>li {
+    list-style: none;
+    padding-left: unset;
+}
+
+#title>.markdown-heading {
+    display: block;
+    text-align: center;
+}
+
+#title>.markdown-heading>a {
+    display: none;
+}
+
+#works-cited>p {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+
+#works-cited>ol {
+    counter-reset: item;
+}
+
+#works-cited>li::before {
+    content: "[" counter(item) "]";
+    counter-increment: item;
+}
+
+.markdown-body {
+    word-wrap: normal !important;
+    line-height: 1.5 !important;
+    font-size: 1.25em !important;
+    /* Font choices required for English 101*/
+    /*font-family: Calibri, Arial, 'Times New Roman', Times, serif !important;*/
+    /* Font choices for resume/personal docs */
+    /*font-family: Montserrat, Helvetica, Arial, sans-serif !important;*/
+}
+
+h4 {
+    font-size: 1.5em !important;
+}
+
+h3 {
+    font-size: 1.75em !important;
+}
+
+h2 {
+    font-size: 2em !important;
+}
+
+h1 {
+    font-size: 3em !important;
+}
+
+#title h1 {
+    font-size: 4em !important;
+}
+
+.container {
+    width: unset !important;
+    max-width: 120em !important;
+}
+
+.preview-page {
+    margin: 4em 2em !important;
+}
+
+.readme {
+    margin: 0 !important;
+}
+
+@page {
+    margin: 0.75in calc(0.75in - 2em);
+}
+
+@page :first {
+    /* margin-top: 2in; */
+}
+
+@media print {
+    p {
+        break-inside: auto !important;
+        text-indent: 0.5in;
+    }
+
+    section {
+        break-inside: avoid-page !important;
+    }
+
+    #title,
+    #table-of-contents {
+        break-after: page;
+    }
+
+    #works-cited {
+        break-before: page;
+    }
+
+    #works-cited h1,
+    #table-of-contents h1,
+    #title+* h2 {
+        margin-top: 0;
+    }
+
+    .markdown-body,
+    html {
+        font-size: 12px !important;
+    }
+
+    h4 {
+        font-size: 14pt !important;
+    }
+
+    h3 {
+        font-size: 16pt !important;
+    }
+
+    h2 {
+        font-size: 24pt !important;
+    }
+
+    h1 {
+        font-size: 32pt !important;
+    }
+
+    #title h1 {
+        font-size: 48pt !important;
+    }
+
+    .markdown-heading:has(h2)+div {
+        column-count: 2;
+        column-width: unset;
+        column-gap: unset;
+    }
+
+    .container {
+        max-width: none !important;
+    }
+}

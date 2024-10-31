@@ -1,0 +1,28 @@
+#my-svg {
+    font-size: 12px;
+}
+
+#my-svg .attr>rect,
+#my-svg .pk>rect,
+#my-svg .disc>rect,
+#my-svg .subAttr>rect,
+#my-svg .subAttr>rect,
+#my-svg .multi>rect {
+    /*increase rounded corner radii to make attrs into ovals*/
+    rx: 20;
+    ry: 20;
+    /*compensate for squished ends around text by elongating*/
+    transform: scale(1.1, 1);
+}
+
+#my-svg .weakEntity,
+#my-svg .weakRelation {
+    /*FIXME: hacky solution to a double stroke*/
+    filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(1px 0 0 black) drop-shadow(-1px 0 0 black) drop-shadow(0 -1px 0 black) drop-shadow(0 1px 0 black);
+}
+
+#my-svg .edge-thickness-thick {
+    /*FIXME: hacky solution to a double stroke*/
+    filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(1px 0 0 black) drop-shadow(-1px 0 0 black) drop-shadow(0 -1px 0 black) drop-shadow(0 1px 0 black);
+    stroke: white !important;
+}
