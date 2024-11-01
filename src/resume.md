@@ -9,76 +9,15 @@
 <span class="contact-list">
 
 - [hire-me@andrew-chang-dewitt.dev](mailto:hire-me@andrew-chang-dewitt.dev)
-- [github.com/andrew-chang-dewitt](https://github.com/andrew-chang-dewitt)
 - [(812) 266-0282](tel:+01-8122660282)
+- [github.com/andrew-chang-dewitt](https://github.com/andrew-chang-dewitt)
 - [andrew-chang-dewitt.dev](https://andrew-chang-dewitt.dev)
 
 </span>
 
-I'm a CS student with a passion for mathematics, programming languages, & building/fixing/improving systems looking for my next role as a Software Engineer Intern.
+I'm a CS student with a range of experience (from academic research @ Northwestern to building global-scale apps @ Tinder) a passion for mathematics, programming languages, & Rust.
 
 </header>
-<aside id="skills">
-
-## Skills
-
-- **languages:**
-  <span class="skills-list">
-
-  - rust
-  - python
-  - typescript
-  - javascript
-  - java
-  - racket
-  - assembly
-
-  </span>
-
-- **tools & libraries:**
-  <span class="skills-list">
-
-  - git
-  - bash
-  - postgres
-  - mysql
-  - nodejs
-  - leptos
-  - fastapi
-  - react
-  - redux
-  - html
-  - css
-
-  </span>
-
-- **concepts:**
-  <span class="skills-list">
-
-  - object-oriented programming
-  - functional programming
-  - data structures
-  - algorithm design & analysis
-  - systems programming
-  - unit testing
-  - end to end testing
-  - restapi design
-  - library api design
-  - relational database system design
-
-  </span>
-
-- **soft skills:**
-  <span class="skills-list">
-
-  - project planning
-  - communication
-  - coaching & mentorship
-  - teamwork
-
-  </span>
-
-</aside>
 <section id="education">
 
 ## Education
@@ -216,6 +155,9 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 </div>
 </div>
 </section>
+<!-- NOTE: not sure this should be included...
+           pro: it serves great purpose to showcase soft skills, but not much otherwise
+           con: it draws attention to me being an atypical student/intern/applicant in a way that may not be seen positively
 <section>
 
 ### Department of Family Resources, State of Indiana
@@ -245,4 +187,66 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 </div>
 </section>
+-->
 </section>
+<aside id="skills">
+
+## Skills
+
+- **languages:**
+  <span class="skills-list">
+
+  - rust
+  - python
+  - typescript
+  - javascript
+  - java
+  - racket
+  - assembly
+
+  </span>
+
+- **tools & libraries:**
+  <span class="skills-list">
+
+  - git
+  - bash
+  - postgres
+  - mysql
+  - nodejs
+  - leptos
+  - fastapi
+  - react
+  - redux
+  - html
+  - css
+
+  </span>
+
+- **concepts:**
+  <span class="skills-list">
+
+  - object-oriented programming
+  - functional programming
+  - data structures
+  - algorithm design & analysis
+  - systems programming
+  - unit testing
+  - end to end testing
+  - restapi design
+  - library api design
+  - relational database system design
+
+  </span>
+
+- **soft skills:**
+  <span class="skills-list">
+
+  - project planning
+  - communication
+  - coaching & mentorship
+  - teamwork
+
+  </span>
+
+</aside>

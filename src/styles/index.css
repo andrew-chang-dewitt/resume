@@ -16,6 +16,9 @@ body {
   color: var(--colors-dark);
   background-color: var(--colors-light);
 }
+article {
+  margin: 1rem;
+}
 
 h1,
 h2,
@@ -109,10 +112,21 @@ section > h3:first-child {
 
 .contact-list ul {
   display: grid;
+  grid-auto-flow: column;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-.contact-list ul > li:nth-child(2n) {
+.contact-list ul > li:nth-child(3),
+.contact-list ul > li:nth-child(4) {
   text-align: right;
+}
+@media screen and (max-width: env(--layout-screen-medium)) {
+  .contact-list ul {
+    display: block;
+  }
+  .contact-list ul > li {
+    text-align: inherit;
+  }
 }
 
 .skills-list ul > li:not(:last-child)::after {
