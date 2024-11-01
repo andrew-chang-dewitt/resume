@@ -1,7 +1,7 @@
 import { marked } from "marked"
 // import { mermaid } from "mermaid";
 
-import "./styles/main.css"
+import "./styles/index.css"
 import doc from "./resume.md?raw"
 // import erdDef from "./erd.mmd?raw";
 

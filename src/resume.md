@@ -95,16 +95,18 @@ _**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
 
 <span class="skills-list">
 
-- object-oriented programming
-- functional programming
+- python
+- java
+- haskell
+- c/c++
+- assembly
 - data structures
 - algorithm design & analysis
+- OOP
+- FP
 - systems programming
 - relational database system design
 - mysql
-- python
-- java
-- assembly
 - teamwork
 - writing
 
@@ -113,7 +115,7 @@ _**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
 </div>
 <div>
 
-Completing coursework on CS & SWE fundamentals, including systems programming, programming language theory, compiler construction, & database organization w/ special interests in discrete mathematics & programming language theory.
+Completing coursework on CS & SWE fundamentals, including data structures, algorithms, computer organization & assembly programming, systems programming, programming paradigms, & database organization w/ special interests in discrete mathematics & programming language theory.
 
 </div>
 

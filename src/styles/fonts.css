@@ -50,16 +50,16 @@
     font-size: 14px;
   }
 }
-@media print and (max-width: env(--layout-screen-small)) {
+@media print {
   :root {
     --fonts-size-tiny: 6pt;
     --fonts-size-small: 8pt;
     --fonts-size-regular: 10pt;
     --fonts-size-regular-medium: 12pt;
-    --fonts-size-medium: 16pt;
-    --fonts-size-large: 22pt;
-    --fonts-size-extra-large: 32pt;
-    --fonts-size-huge: 72pt;
+    --fonts-size-medium: 14pt;
+    --fonts-size-large: 16pt;
+    --fonts-size-extra-large: 20pt;
+    --fonts-size-huge: 24pt;
     font-size: 10px;
   }
 }
