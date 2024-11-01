@@ -17,6 +17,7 @@ jobs:
       with:
         node-version: 22.x
         cache: 'npm'
+    - run: npm i
     - run: npm run build
     - uses: actions/upload-artifact@v4
       with:
