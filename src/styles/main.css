@@ -6,30 +6,15 @@
 @import '~prismjs/themes/prism-tomorrow'
  */
 
-:root {
-  scroll-behavior: smooth;
-}
-
-html {
-  font-size: var(--fonts-size-base-desktop);
-}
-@media screen and (max-width: env(--layout-screen-small)) {
-  html {
-    font-size: var(--fonts-size-base-mobile);
-  }
-}
-
 body {
-  margin: 0;
+  min-width: var(--layout-min-width);
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
   font-family: var(--fonts-family-sans);
   font-size: var(--fonts-size-regular);
   text-rendering: optimizeLegibility;
   color: var(--colors-dark);
   background-color: var(--colors-light);
-}
-
-section {
-  padding-top: 4rem;
 }
 
 h1,
@@ -44,7 +29,7 @@ blockquote {
 }
 
 h1 {
-  font-size: var(--fonts-size-huge);
+  font-size: var(--fonts-size-extra-large);
 }
 
 h2 {
@@ -80,36 +65,13 @@ em {
 }
 
 strong {
+  font-family: var(--fonts-family-mono);
   font-weight: var(--fonts-weight-sans-semi-bold);
-}
-
-button {
-  background-color: var(--colors-dark);
-  color: var(--colors-light);
-  font-weight: var(--fonts-weight-sans-semi-bold);
-  border: none;
-  cursor: pointer;
-}
-
-button[type="submit"] {
-  background-color: var(--colors-action);
-  color: var(--colors-dark);
-}
-
-button:hover,
-button[type="submit"]:hover {
-  background-color: var(--colors-accent1);
-}
-
-button[type="submit"]:hover {
-  color: var(--colors-light);
 }
 
 *:focus {
   outline: none;
 }
-
-button:focus,
 a:focus,
 *[role="button"]:focus {
   box-shadow: 0 0 3px 1px var(--colors-accent1);
@@ -118,25 +80,39 @@ a:focus,
 a {
   color: var(--colors-action-dark);
 }
-
 a:hover {
   color: var(--colors-accent1);
 }
 
-h3 + p:has(em) {
-  margin-top: 0.5rem;
-}
-h3:has(+ p) {
-  margin-bottom: 0.75rem;
-}
 h1:first-child {
-  hyphens: none;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
+h3 > div {
+  margin-top: 0.5rem;
+}
+h3:has(+ div) {
+  margin-bottom: 0.5rem;
+}
+section > h3:first-child {
+  margin-top: 1rem;
+}
+
+.contact-list ul,
 .skills-list ul {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
+}
+
+.contact-list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-list ul > li:nth-child(2n) {
+  text-align: right;
 }
 
 .skills-list ul > li:not(:last-child)::after {
@@ -144,107 +120,35 @@ h1:first-child {
   color: var(--colors-dark-light-alternate);
 }
 
+ul p:has(+ .skills-list),
+ul .skills-list ul {
+  display: inline;
+}
 .skills-list ul > li {
   display: inline;
-  text-wrap: nowrap;
 }
 p:has(+ .skills-list) {
   margin: 0.5rem 0;
 }
 
-/* override colors & fonts for PrismJS styled code blocks */
-code,
-code[class*="language-"] {
-  color: var(--colors-light);
-  font-family: var(--fonts-family-mono);
-}
-:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code,
-:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code[class*="language-"] {
-  font-size: var(--fonts-size-regular);
-}
-@media screen and (max-width: env(--layout-screen-small)) {
-  :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code,
-  :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) > code[class*="language-"] {
-    font-size: var(--fonts-size-small);
-  }
-}
-
-code > .token.boolean,
-.token.number,
-.token.function {
-  color: var(--colors-action);
-}
-code > .token.operator,
-.token.entity,
-.token.url {
-  color: var(--colors-accent1);
-}
-code,
-:not(pre) > code[class*="language-"] {
-  padding: 0 0.2rem;
-  border-radius: 0.3rem;
-}
-code,
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background-color: var(--colors-dark);
-}
-.gatsby-highlight-code-line {
-  background-color: var(--colors-highlight);
-  display: block;
-  margin-right: -1rem;
-  margin-left: -1rem;
-  padding-right: 1rem;
-  padding-left: 0.75rem;
-  border-left: 0.25rem solid var(--colors-action);
-}
-.gatsby-highlight {
-  background-color: var(--colors-dark);
-  border-radius: 0.3rem;
-  margin: 0.5rem 0;
-  padding: 1rem;
-  overflow: auto;
-}
-.gatsby-highlight pre[class*="language-"] {
-  background-color: transparent;
-  margin: 0;
-  padding: 0;
-  overflow: initial;
-  float: left;
-  min-width: 100%;
-}
-
-.no-wrap {
-  white-space: nowrap;
-}
-
-.indent p,
-p.indent {
-  text-indent: var(--layout-paragraph-indent);
-}
-.indent p > img:only-child,
-p.indent > img:only-child {
-  margin-left: -1 * var(--layout-paragraph-indent);
-}
-
-.italic {
+.skills-list ul > li:first-child::before {
+  content: "Skills developed:";
+  font-weight: var(--fonts-weight-sans-semi-bold);
   font-style: italic;
+  padding-right: 0.75rem;
+}
+ul .skills-list ul > li:not(:last-child)::before {
+  content: unset;
+  font-weight: inherit;
+}
+ul p:has(+ .skills-list)::after {
+  content: "";
+  padding-right: 0.3rem;
 }
 
-.subtitle {
-  font-style: italic;
-  margin-bottom: 0.75rem;
-}
-
-.title + .subtitle {
-  margin-top: -1.75rem;
-}
-
-.centered,
-.centered * {
-  text-align: center;
-}
-
+/*
+ * Unused svg styles
+ *
 svg.stroke,
 .stroke svg {
   fill: transparent;
@@ -273,53 +177,33 @@ svg.fill.action,
 .fill.action svg {
   fill: var(--colors-action);
 }
+ */
 
-/* 
+/*
  * print settings
  */
 @media print {
-  html {
-    font-size: 12pt;
-  }
-  .avoidPageBreak {
-    break-inside: avoid;
-  }
-  p {
-    break-inside: auto !important;
-    text-indent: 0.5in;
+  :root {
+    font-size: 11pt;
   }
 
   section {
-    break-inside: avoid-page !important;
+    break-inside: avoid-page;
+  }
+  h2:has(+ section) {
+    break-before: avoid-page;
   }
 
-  #title,
-  #table-of-contents {
-    break-after: page;
-  }
-
-  #works-cited {
-    break-before: page;
-  }
-
-  #works-cited h1,
-  #table-of-contents h1,
-  #title + * h2 {
+  h1:first-child {
     margin-top: 0;
   }
 
-  #title h1 {
-    font-size: 48pt !important;
-  }
-
-  .markdown-heading:has(h2) + div {
-    column-count: 2;
-    column-width: unset;
-    column-gap: unset;
+  p {
+    break-inside: auto;
   }
 }
 @page {
-  margin: 0.75in calc(0.75in - 2em);
+  margin: 0.5in;
 }
 
 @page :first {

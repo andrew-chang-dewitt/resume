@@ -4,15 +4,31 @@
 
   --layout-side-margin: 1rem;
 
-  --layout-grid-gap: 0.5rem;
+  --layout-grid-gap: 1rem;
 
   --layout-paragraph-indent: 2rem;
 
   --layout-first-subtitle: 0.75rem;
 }
 
-.standard-width {
-  min-width: var(--layout-min-width);
-  max-width: var(--layout-max-width);
-  margin: auto;
+section > section > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--layout-grid-gap);
+}
+section > section > div > div > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+section > section > div > div > *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section > section > div > div > ul {
+  padding-left: 1rem;
+}
+@media screen and (max-width: env(--layout-screen-medium)) {
+  section > section > div {
+    grid-template-columns: 1fr;
+  }
 }

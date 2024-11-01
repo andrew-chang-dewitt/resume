@@ -18,7 +18,6 @@
 }
 
 :root {
-  /* --fonts-family-serif: Vollkorn, serif; */
   --fonts-family-serif: Cascadia Code, serif;
   --fonts-family-sans: Montserrat, sans-serif;
   --fonts-family-sans-italic: "Montserrat Italic", italic;
@@ -33,9 +32,6 @@
   --fonts-size-extra-large: 3rem;
   --fonts-size-huge: 3.5rem;
 
-  --fonts-size-base-desktop: 16px;
-  --fonts-size-base-mobile: 14px;
-
   --fonts-weight-sans-normal: 400;
   --fonts-weight-sans-normal-bold: 500;
   --fonts-weight-sans-semi-bold: 600;
@@ -46,6 +42,26 @@
   --fonts-weight-mono-semi-bold: 600;
   --fonts-weight-mono-regular: 400;
   --fonts-weight-mono-light: 300;
+
+  font-size: 16px;
+}
+@media screen and (max-width: env(--layout-screen-small)) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media print and (max-width: env(--layout-screen-small)) {
+  :root {
+    --fonts-size-tiny: 6pt;
+    --fonts-size-small: 8pt;
+    --fonts-size-regular: 10pt;
+    --fonts-size-regular-medium: 12pt;
+    --fonts-size-medium: 16pt;
+    --fonts-size-large: 22pt;
+    --fonts-size-extra-large: 32pt;
+    --fonts-size-huge: 72pt;
+    font-size: 10px;
+  }
 }
 
 @media screen and (prefers-color-scheme: dark) {
