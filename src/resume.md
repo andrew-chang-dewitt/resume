@@ -18,6 +18,67 @@
 I'm a CS student with a range of experience (from academic research @ Northwestern to building global-scale apps @ Tinder) a passion for mathematics, programming languages, & Rust.
 
 </header>
+<aside id="skills">
+
+## Skills
+
+- **languages:**
+  <span class="skills-list">
+
+  - rust
+  - python
+  - typescript
+  - javascript
+  - java
+  - racket
+  - assembly
+
+  </span>
+
+- **tools & libraries:**
+  <span class="skills-list">
+
+  - git
+  - bash
+  - postgres
+  - mysql
+  - nodejs
+  - leptos
+  - fastapi
+  - react
+  - redux
+  - html
+  - css
+
+  </span>
+
+- **concepts:**
+  <span class="skills-list">
+
+  - object-oriented programming
+  - functional programming
+  - data structures
+  - algorithm design & analysis
+  - systems programming
+  - unit testing
+  - end to end testing
+  - restapi design
+  - library api design
+  - relational database system design
+
+  </span>
+
+- **soft skills:**
+  <span class="skills-list">
+
+  - project planning
+  - communication
+  - coaching & mentorship
+  - teamwork
+
+  </span>
+
+</aside>
 <section id="education">
 
 ## Education
@@ -78,7 +139,6 @@ _**Undergraduate research assistant**, March 2024 - June 2024_
 <span class="skills-list">
 
 - racket
-- AI/LLM
 - unit testing
 - teamwork
 - research
@@ -158,6 +218,7 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 <!-- NOTE: not sure this should be included...
            pro: it serves great purpose to showcase soft skills, but not much otherwise
            con: it draws attention to me being an atypical student/intern/applicant in a way that may not be seen positively
+           -->
 <section>
 
 ### Department of Family Resources, State of Indiana
@@ -171,7 +232,6 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 <span class="skills-list">
 
-- Emotional intelligence
 - Leadership
 - Coaching & mentorship
 - Communication
@@ -187,66 +247,6 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 </div>
 </section>
+<!--
 -->
 </section>
-<aside id="skills">
-
-## Skills
-
-- **languages:**
-  <span class="skills-list">
-
-  - rust
-  - python
-  - typescript
-  - javascript
-  - java
-  - racket
-  - assembly
-
-  </span>
-
-- **tools & libraries:**
-  <span class="skills-list">
-
-  - git
-  - bash
-  - postgres
-  - mysql
-  - nodejs
-  - leptos
-  - fastapi
-  - react
-  - redux
-  - html
-  - css
-
-  </span>
-
-- **concepts:**
-  <span class="skills-list">
-
-  - object-oriented programming
-  - functional programming
-  - data structures
-  - algorithm design & analysis
-  - systems programming
-  - unit testing
-  - end to end testing
-  - restapi design
-  - library api design
-  - relational database system design
-
-  </span>
-
-- **soft skills:**
-  <span class="skills-list">
-
-  - project planning
-  - communication
-  - coaching & mentorship
-  - teamwork
-
-  </span>
-
-</aside>
