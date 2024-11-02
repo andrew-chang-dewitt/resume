@@ -110,22 +110,16 @@ section > h3:first-child {
   padding-left: 0;
 }
 
-.contact-list ul {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-.contact-list ul > li:nth-child(3),
-.contact-list ul > li:nth-child(4) {
-  text-align: right;
-}
-@media screen and (max-width: env(--layout-screen-medium)) {
+@media print, screen and (min-width: env(--layout-screen-medium)) {
   .contact-list ul {
-    display: block;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-  .contact-list ul > li {
-    text-align: inherit;
+  .contact-list ul > li:nth-child(3),
+  .contact-list ul > li:nth-child(4) {
+    text-align: right;
   }
 }
 
@@ -201,7 +195,8 @@ svg.fill.action,
     font-size: 11pt;
   }
 
-  section {
+  aside,
+  section > section {
     break-inside: avoid-page;
   }
   h2:has(+ section) {

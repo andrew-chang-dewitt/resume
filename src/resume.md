@@ -15,70 +15,9 @@
 
 </span>
 
-I'm a CS student with a range of experience (from academic research @ Northwestern to building global-scale apps @ Tinder) a passion for mathematics, programming languages, & Rust.
+Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust.
 
 </header>
-<aside id="skills">
-
-## Skills
-
-- **languages:**
-  <span class="skills-list">
-
-  - rust
-  - python
-  - typescript
-  - javascript
-  - java
-  - racket
-  - assembly
-
-  </span>
-
-- **tools & libraries:**
-  <span class="skills-list">
-
-  - git
-  - bash
-  - postgres
-  - mysql
-  - nodejs
-  - leptos
-  - fastapi
-  - react
-  - redux
-  - html
-  - css
-
-  </span>
-
-- **concepts:**
-  <span class="skills-list">
-
-  - object-oriented programming
-  - functional programming
-  - data structures
-  - algorithm design & analysis
-  - systems programming
-  - unit testing
-  - end to end testing
-  - restapi design
-  - library api design
-  - relational database system design
-
-  </span>
-
-- **soft skills:**
-  <span class="skills-list">
-
-  - project planning
-  - communication
-  - coaching & mentorship
-  - teamwork
-
-  </span>
-
-</aside>
 <section id="education">
 
 ## Education
@@ -87,30 +26,10 @@ I'm a CS student with a range of experience (from academic research @ Northweste
 
 ### Bachelor of Science in Computer Science
 
+<div>
+<div>
+
 _**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
-
-<div>
-
-<div>
-
-<span class="skills-list">
-
-- python
-- java
-- haskell
-- c/c++
-- assembly
-- data structures
-- algorithm design & analysis
-- OOP
-- FP
-- systems programming
-- relational database system design
-- mysql
-- teamwork
-- writing
-
-</span>
 
 </div>
 <div>
@@ -118,7 +37,6 @@ _**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
 Completing coursework on CS & SWE fundamentals, including data structures, algorithms, computer organization & assembly programming, systems programming, programming paradigms, & database organization w/ special interests in discrete mathematics & programming language theory.
 
 </div>
-
 </div>
 
 </section>
@@ -147,7 +65,7 @@ _**Undergraduate research assistant**, March 2024 - June 2024_
 </div>
 <div>
 
-- Worked with Dr. Christos Dimoulas @ Northwestern & his team to assist with programming language research
+- Worked in a programming language research lab focused on exploring tools to improve developer experience and increase code correctness by reducing the friction of introducing types and/or testing contracts to previously untyped and/or untested code bases.
 - Assisted in the beginning stages of creating an LLM-based tool for generating test suites capable of capturing a high degree of possible bugs for a given software source
 - Researched fuzzing techniques to use in tandem w/ LLM test generation to hopefully improve the generated tests
 
@@ -218,7 +136,6 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 <!-- NOTE: not sure this should be included...
            pro: it serves great purpose to showcase soft skills, but not much otherwise
            con: it draws attention to me being an atypical student/intern/applicant in a way that may not be seen positively
-           -->
 <section>
 
 ### Department of Family Resources, State of Indiana
@@ -247,6 +164,68 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 </div>
 </section>
-<!--
 -->
 </section>
+<aside id="skills">
+
+## Skills
+
+- **languages:**
+  <span class="skills-list">
+
+  - rust
+  - python
+  - typescript
+  - javascript
+  - racket
+  - haskell
+  - java
+  - assembly
+
+  </span>
+
+- **tools & libraries:**
+  <span class="skills-list">
+
+  - git
+  - github
+  - bash
+  - postgres
+  - mysql
+  - nodejs
+  - leptos
+  - fastapi
+  - react
+  - redux
+  - html
+  - css
+
+  </span>
+
+- **concepts:**
+  <span class="skills-list">
+
+  - object-oriented programming
+  - functional programming
+  - data structures
+  - algorithm design & analysis
+  - systems programming
+  - unit testing
+  - end to end testing
+  - restapi design
+  - library api design
+  - relational database system design
+
+  </span>
+
+- **soft skills:**
+  <span class="skills-list">
+
+  - project planning
+  - communication
+  - coaching & mentorship
+  - teamwork
+
+  </span>
+
+</aside>
