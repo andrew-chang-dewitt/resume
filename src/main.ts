@@ -1,18 +1,10 @@
 import { marked } from "marked"
-// import { mermaid } from "mermaid";
 
 import "./styles/index.css"
-import doc from "./resume.md?raw"
-// import erdDef from "./erd.mmd?raw";
+import resumeDoc from "./resume.md?raw"
+import listingDoc from "./job-listing.md?raw"
 
-const content = marked.parse(doc)
-document.querySelector<HTMLDivElement>("#vite")!.innerHTML = content
-
-// async function drawDiagram(diagramDef: string) {
-//   const element = document.querySelector<HTMLDivElement>("#erd")!;
-//   const { svg } = await mermaid.render("erd-svg", diagramDef);
-//
-//   element.innerHTML = svg;
-// }
-//
-// await drawDiagram(erdDef);
+const resume = marked.parse(resumeDoc)
+const listing = marked.parse(listingDoc)
+document.querySelector<HTMLDivElement>("#vite")!.innerHTML =
+  listing + "<br /><br /><br />" + resume
