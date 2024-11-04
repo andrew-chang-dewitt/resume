@@ -1,5 +1,7 @@
-import { resolve } from "path"
+import mpaPlugin from "vite-plugin-mpa"
 import postcssEnvFunction from "postcss-env-function"
+
+const mpa = mpaPlugin.default
 
 const cssEnvVars = {
   environmentVariables: {
@@ -10,14 +12,6 @@ const cssEnvVars = {
 
 export default {
   appType: "mpa",
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, "index.html"),
-        listing: resolve(__dirname, "listing/index.html"),
-      },
-    },
-  },
   css: {
     postcss: {
       map: true,
@@ -28,4 +22,5 @@ export default {
       ],
     },
   },
+  plugins: [mpa()],
 }
