@@ -14,7 +14,7 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        listing: resolve(__dirname, " listing/index.html"),
+        listing: resolve(__dirname, "listing/index.html"),
       },
     },
   },
