@@ -5,8 +5,10 @@
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "vite --host 0.0.0.0 --port 6419",
-    "prebuild": "npm run clean && mkdir dist && pm2 --name render start vite -- --port 6418",
-    "build": "node ./scripts/generate-pdf.js http://localhost:6418 dist/resume_andrew-chang-dewitt.pdf",
+    "prebuild": "npm run clean && mkdir dist && vite build",
+    "build:web": "pm2 --name render start vite -- preview --port 6418",
+    "build:pdf": "node ./scripts/generate-pdf.js http://localhost:6418 dist/resume_andrew-chang-dewitt.pdf",
+    "build": "npm run build:web && npm run build:pdf",
     "postbuild": "pm2 delete render"
   },
   "repository": {
