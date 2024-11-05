@@ -1,5 +1,6 @@
 import { resolve } from "path"
 import postcssEnvFunction from "postcss-env-function"
+import type { UserConfig } from "vite"
 
 const cssEnvVars = {
   environmentVariables: {
@@ -13,8 +14,8 @@ export default {
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        listing: resolve(__dirname, "listing/index.html"),
+        main: resolve(__dirname, "src/index.html"),
+        listing: resolve(__dirname, "src/listing/index.html"),
       },
     },
   },
@@ -28,4 +29,10 @@ export default {
       ],
     },
   },
+  resolve: {
+    alias: {
+      $: resolve(__dirname, "./src"),
+    },
+  },
+  root: resolve(__dirname, "./src"),
 }
