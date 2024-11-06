@@ -20,12 +20,14 @@ const cssEnvVars = {
 export default {
   appType: "mpa",
   build: {
+    outDir: resolve(__dirname, "./dist"),
     rollupOptions: {
       // ideally, a solution will auto-generate these 
       // for every md pge
       input: {
         main: resolve(__dirname, "src/index.html"),
         listing: resolve(__dirname, "src/listing/index.html"),
+        resume: resolve(__dirname, "src/resume/index.html"),
       },
     },
   },
@@ -47,4 +49,4 @@ export default {
     },
   },
   root: resolve(__dirname, "./src"),
-}
+} satisfies UserConfig
