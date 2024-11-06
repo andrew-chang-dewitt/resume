@@ -22,12 +22,12 @@ export default {
   build: {
     outDir: resolve(__dirname, "./dist"),
     rollupOptions: {
-      // ideally, a solution will auto-generate these 
+      // ideally, a solution will auto-generate these
       // for every md pge
       input: {
-        main: resolve(__dirname, "src/index.html"),
-        listing: resolve(__dirname, "src/listing/index.html"),
-        resume: resolve(__dirname, "src/resume/index.html"),
+        main: resolve(__dirname, "src/pages/index.html"),
+        listing: resolve(__dirname, "src/pages/listing/index.html"),
+        resume: resolve(__dirname, "src/pages/resume/index.html"),
       },
     },
   },
@@ -48,5 +48,5 @@ export default {
       $: resolve(__dirname, "./src"),
     },
   },
-  root: resolve(__dirname, "./src"),
+  root: resolve(__dirname, "./src/pages"),
 } satisfies UserConfig
