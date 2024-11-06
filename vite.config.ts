@@ -12,10 +12,12 @@ const cssEnvVars = {
 export default {
   appType: "mpa",
   build: {
+    outDir: resolve(__dirname, "./dist"),
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
         listing: resolve(__dirname, "src/listing/index.html"),
+        resume: resolve(__dirname, "src/resume/index.html"),
       },
     },
   },
@@ -35,4 +37,4 @@ export default {
     },
   },
   root: resolve(__dirname, "./src"),
-}
+} satisfies UserConfig
