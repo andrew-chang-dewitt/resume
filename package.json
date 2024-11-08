@@ -8,7 +8,7 @@
     "prebuild": "npm run clean && mkdir dist",
     "build:web": "vite build",
     "prebuild:pdf": "pm2 --name render start vite -- preview --port 6418",
-    "build:pdf": "node ./scripts/generate-pdf.js http://localhost:6418 dist/resume_andrew-chang-dewitt.pdf",
+    "build:pdf": "node ./scripts/generate-pdf.js http://localhost:6418/resume/ dist/resume_andrew-chang-dewitt.pdf",
     "build": "npm run build:web && npm run build:pdf",
     "postbuild": "pm2 delete render"
   },

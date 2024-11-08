@@ -1,6 +1,6 @@
 import { resolve } from "path"
 // usage should be like:
-// import staticMdPlugin from "./plugins/static-md"
+import staticMdPlugin from "./plugins/static-md"
 import postcssEnvFunction from "postcss-env-function"
 import type { UserConfig } from "vite"
 
@@ -12,10 +12,10 @@ const cssEnvVars = {
 }
 
 // usage should be like:
-// const staticMd = staticMdPlugin({
-//   dirs: [resolve(__dirname, "./src/pages")],
-//   htmlTemplate: "./src/md/template.html",
-// })
+const staticMd = staticMdPlugin({
+  root: resolve(__dirname, "./src/pages"),
+  // htmlTemplate: "./src/md/template.html",
+})
 
 export default {
   appType: "mpa",
@@ -42,7 +42,7 @@ export default {
     },
   },
   // usage should be like:
-  // plugins: [staticMd],
+  plugins: [staticMd],
   resolve: {
     alias: {
       $: resolve(__dirname, "./src"),
