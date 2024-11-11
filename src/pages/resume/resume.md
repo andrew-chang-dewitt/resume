@@ -136,6 +136,7 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 <!-- NOTE: not sure this should be included...
            pro: it serves great purpose to showcase soft skills, but not much otherwise
            con: it draws attention to me being an atypical student/intern/applicant in a way that may not be seen positively
+           -->
 <section>
 
 ### Department of Family Resources, State of Indiana
@@ -164,7 +165,7 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 </div>
 </section>
--->
+<!---->
 </section>
 <aside id="skills">
 
