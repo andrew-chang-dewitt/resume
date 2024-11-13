@@ -1,8 +1,17 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "esModuleInterop": true,
     "paths": {
       "$/*": ["./src/*"]
-    }
+    },
+    "moduleResolution": "bundler",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
   }
 }
