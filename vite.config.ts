@@ -1,8 +1,12 @@
 import { resolve } from "path"
 // usage should be like:
-import staticMdPlugin from "./plugins/static-md"
 import postcssEnvFunction from "postcss-env-function"
 import type { UserConfig } from "vite"
+import staticMdPlugin from "vite-plugin-static-md"
+
+const HTML_ROOT = resolve(__dirname, "src/pages")
+const OUT_DIR = resolve(__dirname, "dist")
+const SRC_ROOT = resolve(__dirname, "src")
 
 const cssEnvVars = {
   environmentVariables: {
@@ -13,21 +17,17 @@ const cssEnvVars = {
 
 // usage should be like:
 const staticMd = staticMdPlugin({
-  root: resolve(__dirname, "./src/pages"),
   // htmlTemplate: "./src/md/template.html",
+  cssFile: resolve(SRC_ROOT, "styles/index.css"),
 })
 
 export default {
   appType: "mpa",
   build: {
-    outDir: resolve(__dirname, "./dist"),
+    outDir: OUT_DIR,
     rollupOptions: {
-      // ideally, a solution will auto-generate these
-      // for every md pge
       input: {
         main: resolve(__dirname, "src/pages/index.html"),
-        listing: resolve(__dirname, "src/pages/listing/index.html"),
-        resume: resolve(__dirname, "src/pages/resume/index.html"),
       },
     },
   },
@@ -45,8 +45,8 @@ export default {
   plugins: [staticMd],
   resolve: {
     alias: {
-      $: resolve(__dirname, "./src"),
+      $: SRC_ROOT,
     },
   },
-  root: resolve(__dirname, "./src/pages"),
+  root: HTML_ROOT,
 } satisfies UserConfig

@@ -10,7 +10,9 @@
     "prebuild:pdf": "pm2 --name render start vite -- preview --port 6418",
     "build:pdf": "node ./scripts/generate-pdf.js http://localhost:6418/resume/ dist/resume_andrew-chang-dewitt.pdf",
     "build": "npm run build:web && npm run build:pdf",
-    "postbuild": "pm2 delete render"
+    "postbuild": "pm2 delete render",
+    "preview": "vite preview --port 6418",
+    "start": "npm run build && npm run preview"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "prettier": "^3.3.3",
     "puppeteer": "^23.5.3",
     "typescript": "^5.6.3",
-    "vite": "^5.4.9"
+    "vite": "^5.4.9",
+    "vite-plugin-static-md": "^0.2.0"
   }
 }
