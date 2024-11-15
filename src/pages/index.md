@@ -26,6 +26,7 @@ If any of that sounds like you (or someone you know), I'd love to [hear from you
 
 If you're here, it might be because you clicked a link on, or are looking for, one of the following:
 
+- [blog](/blog/)
 - [resume](/resume/)
 - [github](https://github.com/andrew-chang-dewitt)
 - [linkedin](https://linkedin.com/in/andrew-chang-dewitt)
