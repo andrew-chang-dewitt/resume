@@ -15,7 +15,7 @@
 
 </span>
 
-Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust.
+Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust. Currently seeking an internship for summer 2025.
 
 </header>
 <section id="education">
