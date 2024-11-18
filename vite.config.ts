@@ -25,7 +25,14 @@ const staticMd = staticMdPlugin({
 
 export default {
   appType: "mpa",
-  build: { outDir: OUT_DIR },
+  build: {
+    outDir: OUT_DIR,
+    rollupOptions: {
+      input: {
+        404: resolve(HTML_ROOT, "404.html"),
+      },
+    },
+  },
   css: {
     postcss: {
       map: true,
