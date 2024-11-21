@@ -1,3 +1,7 @@
+---
+title: Andrew Chang-DeWitt
+---
+
 # Hi, I'm Andrew.
 
 I'm a CS student at IIT in Chicago who's commonly heard saying things like "that kicked my ass" or "that was terrible" in the same breath as "that was so much fun, let's do it again"; usually about something that happened on my bike or in an algorithms course.
@@ -24,4 +28,4 @@ If you're here, it might be because you clicked a link on, or are looking for, o
 
 - [resume](/resume/)
 - [github](https://github.com/andrew-chang-dewitt)
-- [linkedin](https://linkedin.com/in/andrew-chang-dewitt).
+- [linkedin](https://linkedin.com/in/andrew-chang-dewitt)

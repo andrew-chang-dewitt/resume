@@ -1,3 +1,47 @@
+---
+title: Resume | Andrew Chang-DeWitt
+description: Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust. Currently seeking an internship for summer 2025.
+keywords:
+  - resume
+  - software engineer
+  - intern
+  - internship
+  - rust
+  - python
+  - typescript
+  - javascript
+  - racket
+  - haskell
+  - java
+  - assembly
+  - git
+  - github
+  - bash
+  - postgres
+  - mysql
+  - nodejs
+  - leptos
+  - fastapi
+  - react
+  - redux
+  - html
+  - css
+  - object-oriented programming
+  - functional programming
+  - data structures
+  - algorithm design & analysis
+  - systems programming
+  - unit testing
+  - end to end testing
+  - restapi design
+  - library api design
+  - relational database system design
+  - project planning
+  - communication
+  - coaching & mentorship
+  - teamwork
+---
+
 <header>
 
 <!-- NOTE: using U+2011 non breaking hyphen below to discourage wrapping at
