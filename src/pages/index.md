@@ -1,7 +1,7 @@
 # Hi, I'm Andrew.
 
 I'm a CS student at IIT in Chicago who's commonly heard saying things like "that kicked my ass" or "that was terrible" in the same breath as "that was so much fun, let's do it again"; usually about something that happened on my bike or in an algorithms course.
-When I'm not slogging my way through CLRS or in the middle of yet another ill-advised bike commute, I love spending time on a few [personal projects](https://github.com/andrew-chang-dewitt), cooking for my family, or going on long walks with my dog around Chicago.
+When I'm not slogging my way through CLRS or in the middle of yet another ill-advised bike commute, I enjoy spending time on a few [personal projects](https://github.com/andrew-chang-dewitt), cooking for my family, or going on long walks with my dog around Chicago.
 
 ## Hire me
 
@@ -12,10 +12,16 @@ My interests are broad, but I typically get excited about a job listing when it 
 - mentorship & experience helping junior engineers grow
 - pair programming or shadowing
 - anything using Rust
-- tooling (like the bike-shedding on this site that turned into [`vite-plugin-static-md`](https://github.com/andrew-chang-dewitt/vite-plugin-static-md))
+- tooling (like [the bike-shedding](https://github.com/andrew-chang-dewitt/vite-plugin-static-md) that happened while I was ostensibly working on this site)
 - backend web work
 - infrastructure
 
-## Elsewhere
+If any of that sounds like you (or someone you know), I'd love to [hear from you](mailto:hire-me@andrew-chang-dewitt.dev)!
 
-If you're here, it might be because you clicked a link on my [resume](/resume/), [github](https://github.com/andrew-chang-dewitt), or [linkedin](https://linkedin.com/in/andrew-chang-dewitt).
+## Other stuff
+
+If you're here, it might be because you clicked a link on, or are looking for, one of the following:
+
+- [resume](/resume/)
+- [github](https://github.com/andrew-chang-dewitt)
+- [linkedin](https://linkedin.com/in/andrew-chang-dewitt).
