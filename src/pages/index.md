@@ -16,7 +16,7 @@ My interests are broad, but I typically get excited about a job listing when it 
 - mentorship & experience helping junior engineers grow
 - pair programming or shadowing
 - anything using Rust
-- tooling (like [the bike-shedding](https://github.com/andrew-chang-dewitt/vite-plugin-static-md) that happened while I was ostensibly working on this site)
+- tooling (like [the bike-shedding](https://github.com/andrew-chang-dewitt/vite-plugin-static-md) [that happened](https://github.com/andrew-chang-dewitt/create-vite-ssg) [while I was](https://github.com/andrew-chang-dewitt/mdpub) ostensibly working on [this site](https://github.com/andrew-chang-dewitt/resume))
 - backend web work
 - infrastructure
 
