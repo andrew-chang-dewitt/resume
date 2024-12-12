@@ -59,7 +59,7 @@ keywords:
 
 </span>
 
-Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust. Currently seeking an internship for summer 2025.
+Experienced Software Engineering Intern with a passion for open-source, code quality, &amp; learning by shipping. Seeking an internship with a company offering growth, ownership, coaching, &amp; collaboration.
 
 </header>
 <section id="education">
@@ -78,7 +78,7 @@ _**Illinois Institute of Technology**, Chicago, IL, August 2024 - May 2026_
 </div>
 <div>
 
-Completing coursework on CS & SWE fundamentals, including data structures, algorithms, computer organization & assembly programming, systems programming, programming paradigms, & database organization w/ special interests in discrete mathematics & programming language theory.
+Completing coursework on CS &amp; SWE fundamentals, including database management systems, data structures, algorithms, assembly programming, systems programming, &amp; programming paradigms w/ special interests in programming language theory &amp; tools/processes used to build software.
 
 </div>
 </div>
@@ -102,15 +102,16 @@ _**Undergraduate research assistant**, March 2024 - June 2024_
 
 - racket
 - unit testing
-- teamwork
+- collaboration
+- communication
 - research
 
 </span>
 </div>
 <div>
 
-- Worked in a programming language research lab focused on exploring tools to improve developer experience and increase code correctness by reducing the friction of introducing types and/or testing contracts to previously untyped and/or untested code bases.
-- Assisted in the beginning stages of creating an LLM-based tool for generating test suites capable of capturing a high degree of possible bugs for a given software source
+- Worked in a programming language research lab focused on exploring tools to improve developer experience &amp; increase code correctness by reducing the friction of introducing types and/or testing contracts to previously untyped and/or untested code bases
+- Collaborated with another undergrad student to build a proof-of-concept AI-powered tool for generating test suites capable of capturing a high degree of possible bugs for a given software source
 - Researched fuzzing techniques to use in tandem w/ LLM test generation to hopefully improve the generated tests
 
 </div>
@@ -133,17 +134,18 @@ _**Web Engineering Intern**, June 2022 - Jan 2023_
 - github
 - unit testing
 - user studies
-- teamwork
 - project planning
+- collaboration
+- communication
 
 </span>
 </div>
 <div>
 
-- Led implementation planning for & worked with a cross-disciplinary team including engineering, product, & design to develop a new feature shipped on Tinder's web app in late Q3 of 2022, impacting tens of millions of users
-- Participated in the code-review &amp; release process as well as regular, informal Scrum ceremonies
-- Assisted in migrating JavaScript typed in Flow to TypeScript across the application
-- Improved the Web experience for tens of millions of users by identifying & shipping fixes for a11y & i18n bugs
+- Worked on Tinder's Web platform with a fast-paced team responsible for building, testing, &amp; maintaining user experiences
+- Led implementation planning &amp; design for a new feature, then worked with a cross-disciplinary team to code, qa test, conduct user tests, &amp; write documentation before shipping on Tinder's web app in late Q3 of 2022, impacting tens of millions of users
+- Participated in the code-review &amp; shipping processes as well as regular, informal stand ups &amp; other meetings
+- Obsessed over improving diverse customer experiences around the world by way of identifying &amp; shipping a11y &amp; i18n bug fixes
 
 </div>
 </section>
@@ -161,18 +163,20 @@ _**Assistant Web Master**, Aug 2021 - June 2022_
 - c#
 - .net
 - javascript
+- python
 - vue
 - html
 - css
 - communication
+- collaboration
 
 </span>
 </div>
 <div>
 
 - Updated outdated .NET Razor views from Bootstrap/JQuery to Indiana University's modern css framework, improving page load times
-- Implemented additional features in HTML, CSS, & vanilla JS (or Vue, where applicable)
-- Built dev tools in Python & TypeScript to automate data & file collection & formatting
+- Implemented additional features in HTML, CSS, &amp; vanilla JS (or Vue, where applicable)
+- Built dev tools in Python &amp; TypeScript to automate data &amp; file collection &amp; formatting
 
 </div>
 </div>
@@ -194,18 +198,19 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
 <span class="skills-list">
 
-- Leadership
-- Coaching & mentorship
-- Communication
-- Project planning
+- collaboration
+- communication
+- project planning
+- leadership
+- coaching &amp; mentorship
 
 </span>
 </div>
 <div>
 
-- Assisted clients & team members in de-escalating intensely emotional situations in order to help solve problems in benefit cases/applications & advise on complicated policies
-- Trained 12 new employees & coached a team of experienced employees to improve their customer service, communication, & problem-solving skills by designing & hosting group training sessions complemented with targeted 1:1 mentoring
-- Collaborated with local office & regional management to improve business processes for efficiency & accuracy, saving 90+ minutes/day when generating reports & assigning case loads
+- Assisted clients &amp; team members in de-escalating intensely emotional situations in order to help solve problems in benefit cases/applications &amp; advise on complicated policies
+- Trained 12 new employees &amp; coached a team of experienced employees to improve their customer service, communication, &amp; problem-solving skills by designing &amp; hosting group training sessions complemented with targeted 1:1 mentoring
+- Collaborated with local office &amp; regional management to improve business processes for efficiency &amp; accuracy, saving 90+ minutes/day when generating reports &amp; assigning case loads
 
 </div>
 </section>
@@ -218,10 +223,10 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 - **languages:**
   <span class="skills-list">
 
-  - rust
   - python
   - typescript
   - javascript
+  - rust
   - racket
   - haskell
   - java
@@ -229,14 +234,14 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 
   </span>
 
-- **tools & libraries:**
+- **tools &amp; libraries:**
   <span class="skills-list">
 
   - git
   - github
-  - bash
-  - postgres
   - mysql
+  - postgres
+  - bash
   - nodejs
   - leptos
   - fastapi
@@ -250,15 +255,15 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 - **concepts:**
   <span class="skills-list">
 
-  - object-oriented programming
-  - functional programming
-  - data structures
-  - algorithm design & analysis
-  - systems programming
-  - unit testing
-  - end to end testing
   - restapi design
   - library api design
+  - unit testing
+  - end to end testing
+  - data structures
+  - algorithm design &amp; analysis
+  - object-oriented programming
+  - functional programming
+  - systems programming
   - relational database system design
 
   </span>
@@ -266,10 +271,10 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 - **soft skills:**
   <span class="skills-list">
 
-  - project planning
+  - collaboration
   - communication
-  - coaching & mentorship
-  - teamwork
+  - project planning
+  - coaching &amp; mentorship
 
   </span>
 
