@@ -60,7 +60,7 @@ keywords:
 </span>
 
 Experienced Software Engineering Intern & Computer Science student with a passion for programming languages, education, & learning.
-Seeking an internship with an organization that values mentorship and growth.
+Seeking internship with org that values mentorship and growth.
 
 </header>
 <section id="education">
@@ -144,7 +144,7 @@ _**Web Engineering Intern**, June 2022 - Jan 2023_
 - Led implementation planning for & worked with a cross-disciplinary team including engineering, product, & design to develop a new feature shipped on Tinder's web app in late Q3 of 2022, impacting tens of millions of users
 - Participated in the code-review &amp; release process as well as regular, informal Scrum ceremonies
 - Assisted in migrating JavaScript typed in Flow to TypeScript across the application
-- Contributed code to improve the Web experience for tens of millions of users by identifying & shipping fixes for a11y & i18n bugs
+- Contributed fixes for a11y & i18n bugs to improve the Web experience for tens of millions of users
 
 </div>
 </section>
