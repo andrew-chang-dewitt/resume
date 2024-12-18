@@ -59,7 +59,8 @@ keywords:
 
 </span>
 
-Experienced Software Engineering Intern & Computer Science student with a passion for mathematics, programming languages, & Rust. Currently seeking an internship for summer 2025.
+Experienced Software Engineering Intern & Computer Science student with a passion for programming languages, education, & learning.
+Seeking an internship with an organization that values mentorship and growth.
 
 </header>
 <section id="education">
@@ -143,7 +144,7 @@ _**Web Engineering Intern**, June 2022 - Jan 2023_
 - Led implementation planning for & worked with a cross-disciplinary team including engineering, product, & design to develop a new feature shipped on Tinder's web app in late Q3 of 2022, impacting tens of millions of users
 - Participated in the code-review &amp; release process as well as regular, informal Scrum ceremonies
 - Assisted in migrating JavaScript typed in Flow to TypeScript across the application
-- Improved the Web experience for tens of millions of users by identifying & shipping fixes for a11y & i18n bugs
+- Contributed code to improve the Web experience for tens of millions of users by identifying & shipping fixes for a11y & i18n bugs
 
 </div>
 </section>
@@ -218,14 +219,12 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 - **languages:**
   <span class="skills-list">
 
-  - rust
   - python
-  - typescript
   - javascript
+  - typescript
+  - rust
   - racket
   - haskell
-  - java
-  - assembly
 
   </span>
 
@@ -235,13 +234,9 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
   - git
   - github
   - bash
-  - postgres
-  - mysql
   - nodejs
-  - leptos
-  - fastapi
-  - react
-  - redux
+  - postgres
+  - flask
   - html
   - css
 
@@ -266,8 +261,8 @@ _**Eligibility Specialist**, Aug 2016 - Jun 2019_
 - **soft skills:**
   <span class="skills-list">
 
-  - project planning
   - communication
+  - project planning
   - coaching & mentorship
   - teamwork
 
